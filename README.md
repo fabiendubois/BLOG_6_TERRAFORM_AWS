@@ -265,7 +265,7 @@ Voici l'affichage lors de l'execution de `terraform apply -var="bucket_name=mon-
 > 💡Pour plus d'informations : [documentation sur les outputs](https://www.terraform.io/docs/configuration/outputs.html)
 
 ### La gestion des états
-Au sein des fichiers *.tfstate* Terraform stock l'état de la configuration, l'état de l'infrastructure réeele et plusieurs méta-données.
+Au sein des fichiers *.tfstate* Terraform stock l'état de la configuration, l'état de l'infrastructure existante et plusieurs méta-données.
 
 Par défaut ces fichiers sont stockés en local mais il est possible de stocker l'état à distance, via un Backend S3 par exemple.
 
